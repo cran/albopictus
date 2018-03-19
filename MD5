@@ -1,0 +1,12 @@
+896f94d08a95b7b21a9034d6a8dd8e02 *DESCRIPTION
+c129544db37de37820d5e9a9f36b75c6 *NAMESPACE
+d145dadb822aee1fa782f56975a37c5e *R/albopictus.R
+55878337a96e10bd9264fdedd04b4c34 *R/spop.R
+bdc800d2c18a31b30dc1e137812e8044 *README.md
+b78b1d406d0faf03593d83612010d238 *man/add-spop.Rd
+5b84a2b29dbb938faae8aa7ace2c6af9 *man/albopictus-package.Rd
+4426f4d8669212f05d0af71bf8d417c0 *man/dead-spop.Rd
+6d4ee4af480ed406addc91dd6687187e *man/developed-spop.Rd
+7faf2ca44bdcea176ac753dfc2bf3f5d *man/iterate-spop.Rd
+60c75ae725200cbf44c41d0db26b71e9 *man/size-spop.Rd
+4f1dabb39e6b73a8b98b66a6b4d1a0af *man/spop.Rd
