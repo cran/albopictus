@@ -14,7 +14,7 @@ add(x) <- value
 \arguments{
 \item{x}{spop class instant}
 
-\item{value}{\code{data.frame} with \code{name} and \code{age} fields}
+\item{value}{\code{data.frame} with \code{age}, \code{devcycle}, \code{development}, and \code{number} fields}
 }
 \description{
 Introduce a batch of individuals with a given age
