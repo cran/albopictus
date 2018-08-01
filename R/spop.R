@@ -1,11 +1,29 @@
 prob_list <- c('gamma','nbinom')
 
+#' @name nbinom_dist_prob
+#' @export nbinom_dist_prob
+#' @importFrom stats pnbinom
+#' @title Negative binomial probability of death or development
+#' @description
+#' Negative binomial-distributed probability of death or development happening in the next iteration
+#' @param xr age of individuals
+#' @param mn mean age of death or development
+#' @param std standard deviation of the age of death or development
 nbinom_dist_prob <- function(xr,mn,std) {
     p <- mn / (std * std)
     r <- mn * p / (1.0 - p)
     return(1.0 - (1.0-pnbinom(xr+1,size=r,prob=p))/(1.0-pnbinom(xr,size=r,prob=p)))
 }
 
+#' @name gamma_dist_prob
+#' @export gamma_dist_prob
+#' @importFrom stats pgamma
+#' @title Gamma probability of death or development
+#' @description
+#' Gamma-distributed probability of death or development happening in the next iteration
+#' @param xr age of individuals
+#' @param mn mean age of death or development
+#' @param std standard deviation of the age of death or development
 gamma_dist_prob <- function(xr,mn,std) {
     theta <- std * std / mn
     k <- mn / theta
